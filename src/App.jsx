@@ -153,7 +153,7 @@ export default function LanguageSwitcher() {
   };
   return (
     <div style={s.page}>
-      <p style={s.tag}>Language Switcher via Context</p>
+      <p style={s.tag}>Language Switcher via useContext</p>
       <LangProvider>
         <LangSwitcher />
         <HeroSection />
